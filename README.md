@@ -1,17 +1,16 @@
 # Online-voting-system
 The Secure Digital Ballot is a simplified software application designed to digitize the electoral process. The system allows administrators to set up an election, register candidates, and enables authenticated voters to cast their ballots electronically. The goal is to replace manual paper counting with an automated system that ensures accuracy.
-Project Statement: Digital Voting System (Python)
-1. Project Identification
+
 Project Name: SecureVote Python CLI
 
-Developer: [Your Name]
+Developer: Jaspreet Sindhu
 
 Course: Introduction to Problem Solving and Programming
 
-Platform: Python 3.x (Console-Based)
+Platform: Python 3.14
 
 2. Problem Description
-The current process of manual voting in small-scale organizations (e.g., student councils, club elections) is inefficient, prone to tallying errors, and lacks immediate verification. There is a need for a lightweight, digital solution that automates the collection and counting of ballots while ensuring the integrity of the election by preventing unauthorized or duplicate voting.
+The current process of manual voting in small-scale organizations (e.g., student councils, club elections is inefficient, prone to tallying errors, and lacks immediate verification. There is a need for a lightweight, digital solution that automates the collection and counting of ballots while ensuring the integrity of the election by preventing unauthorized or duplicate voting.
 
 3. Project Objectives
 The primary goal is to develop a robust Python application that simulates a real-world election environment. The system must solve the following "Problem Solving" challenges:
@@ -63,4 +62,4 @@ Exception Handling: (try/except) to manage ValueError during integer conversion.
 6. Constraints & Scope
 Scope: This version is a local console-based simulation and does not require a web interface or a persistent SQL database.
 
-Data Persistence: Data is stored in-memory during the session (Optionally: Saved to a .txt file upon exit).
+Data Persistence: Data is stored in-memory during the session.
