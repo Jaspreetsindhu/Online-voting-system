@@ -14,4 +14,23 @@ There is a need for a lightweight digital solution that automates ballot collect
 3. 
 Project Objectives 
 The main goal is to develop a solid Python application that simulates a real-world election. 
-The system must address the following challenges: - Identity Verification: Distinguishing between registered and unregistered voters. - Concurrency Control: Ensuring a strict "One Person, One Vote" policy. - Data Integrity: Maintaining accurate counts for multiple candidates at the same time. - Error Resilience: Handling bad data, such as non-numeric inputs or out-of-range choices, without crashing the program. 4. Functional Requirements The application will provide the following capabilities: A. Voter Module - Login System: Users must enter a pre-defined Voter ID to access the ballot. - Ballot Interface: Display a numbered list of candidates dynamically. - Vote Casting: Allow users to select a candidate by entering a corresponding index number. - Confirmation: Provide a success message once the vote is recorded. B. Security Logic - Duplicate Prevention: If an ID has already voted, the system must display an "Access Denied" message. - Input Validation: The system must ensure that the vote is a valid integer within the candidate range. C. Administrative Module - Session Termination: A specific "Admin Key," such as 999 or a password, is needed to close the polls. - Result Tabulation: When polls close, the system must calculate the total votes and declare the winner based on the highest count. 5. Technical Specifications (Python) The project will use the following programming constructs: - Dictionaries: To map Candidate Names to Vote Totals and Voter IDs to Status. - While Loops: To keep the voting station active for multiple users. - Conditional Logic: (if/elif/else) to manage the flow of authentication and voting. - Exception Handling: (try/except) to handle ValueErrors during integer conversion. 6. Constraints & Scope Scope: This version is a local console-based simulation and does not require a web interface or a persistent SQL database. Data Persistence: Data is stored in memory during the session.
+The system must address the following challenges: 
+- Identity Verification: Distinguishing between registered and unregistered voters. 
+- Concurrency Control: Ensuring a strict "One Person, One Vote" policy. 
+- Data Integrity: Maintaining accurate counts for multiple candidates at the same time. 
+- Error Resilience: Handling bad data, such as non-numeric inputs or out-of-range choices, without crashing the program. 
+4. 
+Functional Requirements 
+The application will provide the following capabilities: 
+A. Voter Module 
+      - Login System: Users must enter a pre-defined Voter ID to access the ballot. 
+      - Ballot Interface: Display a numbered list of candidates dynamically. 
+      - Vote Casting: Allow users to select a candidate by entering a corresponding index number. 
+      - Confirmation: Provide a success message once the vote is recorded. 
+B. Security Logic 
+      - Duplicate Prevention: If an ID has already voted, the system must display an "Access Denied" message. 
+      - Input Validation: The system must ensure that the vote is a valid integer within the candidate range. 
+C. Administrative Module 
+      - Session Termination: A specific "Admin Key," such as 999 or a password, is needed to close the polls. 
+      - Result Tabulation: When polls close, the system must calculate the total votes and declare the winner based on the highest count. 
+5. Technical Specifications (Python) The project will use the following programming constructs: - Dictionaries: To map Candidate Names to Vote Totals and Voter IDs to Status. - While Loops: To keep the voting station active for multiple users. - Conditional Logic: (if/elif/else) to manage the flow of authentication and voting. - Exception Handling: (try/except) to handle ValueErrors during integer conversion. 6. Constraints & Scope Scope: This version is a local console-based simulation and does not require a web interface or a persistent SQL database. Data Persistence: Data is stored in memory during the session.
