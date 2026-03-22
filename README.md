@@ -17,8 +17,8 @@ Finalization: Shows the winner and total tally
 
 The Source Code
 
-# Online Voting System - Python Project
-# Course: Introduction to Problem Solving and Programming
+Online Voting System - Python Project
+Course: Introduction to Problem Solving and Programming
 
 def run_election():
     # Initial Data
