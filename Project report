@@ -82,7 +82,7 @@ It will keep running until the user chooses to stop it.
 
 
 
-# Challenges I made
+# Challenges I faced
 
 
 The main problem was making sure the data was correct. We had to stop people from voting more than once. At the time we wanted to make it easy for users to vote.
