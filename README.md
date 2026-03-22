@@ -78,32 +78,6 @@ if __name__ == "__main__":
 
 
 
-## How to Run
-
-To start you need to clone the repository.
-
-Here is how you can do it:
-
-Bash
-
-git clone https://github.com/jaspreetsindhu/online-voting-python.git
-
-Next navigate to the directory.
-
-Just use this command:
-
-Bash
-
-cd online-voting-python
-
-Now you can execute the script.
-
-Here is the command:
-
-Bash
-
-python voting_system.py
-
 # Key Concepts Applied
 
 The code uses key concepts.
