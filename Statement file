@@ -1,6 +1,4 @@
-Gemini said 
-Since you are working on a project for an Introduction to Problem Solving and Programming course, your GitHub "Statement" file (also known as a Problem Statement or Project Specification) needs to clearly define the logic, the constraints, and the goals of your Python script.
-Below is a well-formatted PROBLEM_STATEMENT.md file you can use for your repository. 
+
 # Problem Statement: Online Voting System 
 ## 1. Project Overview 
 The goal of this project is to develop a Python-based Online Voting System that allows users to cast votes for their preferred candidates in a secure and organized way. 
@@ -31,6 +29,7 @@ The final "Election Results" output matches the total of individual votes cast d
 Language: Python 3.x 
 Libraries: os, csv (for data storage), or json. 
 Environment: Terminal / Command Line Interface (CLI). 
-Academic Note: This project is designed for an introductory programming course. The focus is on algorithm design and logical flow rather than complex cybersecurity or web deployment
+Academic Note: This project is designed for an introductory programming course. 
+The focus is on algorithm design and logical flow rather than complex cybersecurity or web deployment
 
 
