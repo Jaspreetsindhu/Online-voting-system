@@ -1,24 +1,25 @@
-Online Voting System (Python)
+# Online Voting System (Python)
 
 Introduction to OVS This is a CLI based Online Voting System developed as a part of the Introduction to Problem Solving and Programming course. While the course dives into functional programming, data validation, and dictionary-based state management.
 
-Project Logic
+
+
+# Project Logic
 
 This system works with a flow to maintain the election integrity:
 
-Authentication: Matches Voter ID with "Already Voted" list.
+1. Authentication: Matches Voter ID with "Already Voted" list.
 
-Choice: Users select from a changing pool of candidates.
+2. Choice: Users select from a changing pool of candidates.
 
-To avoid unintentional duplicate entries and filter out invalid inputs, validation is necessary.
+3. Finalization: Shows the winner and total tally
 
-
-Finalization: Shows the winner and total tally
-
-The Source Code
+# The Source Code
 
 Online Voting System - Python Project
 Course: Introduction to Problem Solving and Programming
+Name- Jaspreet Sindhu
+Reg no. - 25boe10069
 
 def run_election():
     # Initial Data
@@ -77,7 +78,6 @@ if __name__ == "__main__":
 
 
 
-File
 ## How to Run
 
 To start you need to clone the repository.
@@ -86,7 +86,7 @@ Here is how you can do it:
 
 Bash
 
-git clone https://github.com/yourusername/online-voting-python.git
+git clone https://github.com/jaspreetsindhu/online-voting-python.git
 
 Next navigate to the directory.
 
@@ -104,7 +104,7 @@ Bash
 
 python voting_system.py
 
-## Key Concepts Applied
+# Key Concepts Applied
 
 The code uses key concepts.
 
