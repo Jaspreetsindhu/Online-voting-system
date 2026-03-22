@@ -1,1 +1,133 @@
+# Problem Description
 
+
+An online voting system is a computer program that helps people vote online. It replaces the way of voting with paper. This new way is faster, safer and easier to use.
+
+The system uses a programming language called Python. It helps check who is voting. It makes sure each person can only vote once. It does this by giving each person an ID. The system also adds up the votes away.
+
+The online voting system uses some programming ideas. It uses a list to keep track of votes. It uses loops to keep working all the time. It uses rules to check if the information entered is correct.
+
+This way of voting is better, than the way. It makes mistakes. It costs money to run. It is also more open and honest. This makes it a great tool for groups to make decisions. It is also good for schools to show how to solve problems.
+
+The online voting system is helpful. It makes voting easy and fast. It is a way for people to choose their leaders or make decisions.
+
+
+
+# Why it matters?
+
+
+Digitalizing voting is a step in modernizing how we make decisions in organizations and democracies.
+
+By using an Online Voting System of manual counting we get rid of mistakes and logistical issues that often cause arguments and delays.
+
+In programming building such a system is an exercise in keeping data safe and secure.
+
+We can make sure votes are transparent and secure by giving each voter an ID and counting votes, in real-time.
+
+This way we prevent people from voting
+
+Online voting also makes it easier for people to participate from anywhere which leads to engagement.
+
+As a result the final outcome accurately shows what the community really wants.
+
+Online Voting Systems help ensure that everyones voice is heard.
+
+
+
+# My approach to solving it
+
+
+The approach focuses on Modular Logic and Data Integrity to make sure the voting process is reliable.
+
+It uses a Sentinel-controlled Loop so the program stays active for users and has a clear way to exit.
+
+The core solution uses a Dictionary to add up votes and a Set to keep track of unique Voter IDs.
+
+This helps prevent someone from voting by simply checking if they are already in the Set.
+
+The system also checks user input carefully using try-except blocks.
+
+This way it can handle mistakes like when someone enters something that's not a number.
+
+This approach puts Security first from the start.
+
+It takes the users input. Makes it into election data that can be checked and verified.
+
+The focus is, on Modular Logic, Data Integrity and Security.
+
+The Dictionary and Set are used to make sure votes are counted correctly and that each voter can only vote once.
+
+
+
+# Key decisions I made
+
+
+The main goal was to make sure data is correct by using a list for tracking voters. This list allows us to quickly check if someone is already in it which prevents people from voting
+
+We used a kind of list to keep track of how many votes each candidate got. This makes it easy to update the results as people vote.
+
+* We also added a way to handle mistakes when people enter something that's not a number.
+
+* If someone enters something that's not a number the program will not crash.
+
+* Instead it will let the user know that they made a mistake and ask them to try
+
+The program runs in a loop. Keeps asking the user, for input until they decide to stop.
+
+This makes it easy for people to use the program and vote.
+
+The loop is controlled so it will not do anything
+
+It will keep running until the user chooses to stop it.
+
+
+
+# Challenges I made
+
+
+The main problem was making sure the data was correct. We had to stop people from voting more than once. At the time we wanted to make it easy for users to vote.
+
+* We needed to create a system that could quickly check if a voter had already voted.
+
+This required a data structure.
+
+We chose to use a Set because it can check things fast.
+
+Another issue was making sure the input was valid.
+
+We had to handle cases where people enter something that's not a number or is out of range.
+
+The tool will be used by the public. It had to be able to handle these cases without crashing.
+
+* We wanted to make the Command Line Interface simple.
+
+We also had to have some complex logic to handle different cases.
+
+We had to plan it to avoid making the code messy.
+
+The code needs to be easy to read easy to add to and good for teaching.
+
+It is, for a level after all.
+
+Voter IDs and voted state mapping was key.
+
+Set was used for lookup.
+
+Input validation was critical.
+
+Command Line Interface had to be balanced.
+
+
+
+#. What I learnt
+
+
+Through this project I gained an understanding of how to design algorithms and the importance of data structures, in keeping a system running smoothly.
+
+I learned to use Dictionaries to map data and Sets to quickly check if something is already there to prevent adding duplicates.
+
+Beyond writing code I got good at defensive programming by making sure to check inputs properly to handle errors without crashing.
+
+This experience showed me how to move from writing simple scripts to creating a logical flow that works like real-world applications.
+
+Importantly I learned how to take a complex social need. Secure voting. And turn it into a Python program that is structured, reliable and verifiable.
