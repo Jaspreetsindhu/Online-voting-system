@@ -77,6 +77,31 @@ else:
 
 print("Invalid candidate selection.")
 
-except ValueError
+except ValueError:
+
+print("Invalid input. Please enter a number.")
+
+elif choice == '2':
+print("\n--- Current Election Standings ---")
+            for candidate, votes in vote_counts.items():
+                print(f"{candidate}: {votes} votes")
+            
+            winner = max(vote_counts, key=vote_counts.get)
+            if vote_counts[winner] > 0:
+                print(f"\nLeading Candidate: {winner}")
+            else:
+                print("\nNo votes cast yet.")
+
+        elif choice == '3':
+            print("Exiting system. Final results saved.")
+            break
+        else:
+            print("Invalid choice. Try again.")
+
+if __name__ == "__main__":
+    run_election()
+
+
+
 
 
