@@ -1,51 +1,36 @@
-Gemini said
-Since you are working on a project for an Introduction to Problem Solving and Programming course, your GitHub "Statement" file (often called a Problem Statement or Project Specification) needs to clearly define the logic, the constraints, and the goals of your Python script.
+Gemini said 
+Since you are working on a project for an Introduction to Problem Solving and Programming course, your GitHub "Statement" file (also known as a Problem Statement or Project Specification) needs to clearly define the logic, the constraints, and the goals of your Python script.
+Below is a well-formatted PROBLEM_STATEMENT.md file you can use for your repository. 
+# Problem Statement: Online Voting System 
+## 1. Project Overview 
+The goal of this project is to develop a Python-based Online Voting System that allows users to cast votes for their preferred candidates in a secure and organized way. 
+This project displays basic programming concepts such as data structures (lists and dictionaries), loops, conditional logic, and file handling. 
+## 2. Problem Definition 
+Traditional manual voting systems often suffer from human error, long processing times, and a lack of transparency. 
+This digital solution aims to: 
+Authenticate voters with a unique ID. 
+Prevent double-voting (one person, one vote). 
+Automate the counting process to provide immediate results. 
+## 3. Functional Requirements 
+To address the problem, the Python script must perform the following tasks: 
+Voter Registration - Users must enter a unique Voter ID and Name. 
+Candidate List - Display a predefined list of candidates for the user to choose from. 
+Voting Logic - Check if the Voter ID has already voted; if not, record the vote. 
+Result Compilation - Calculate total votes for each candidate and identify the winner. 
+Data Persistence - Save the final results to a .txt or .csv file. 
+## 4. Constraints & Logic 
+Input Validation: The system must handle invalid inputs (for example, entering a string when a number is expected) without crashing. 
+Uniqueness: No two voters can share the same ID. 
+Privacy: While the count is public, the connection between a specific Voter ID and their choice should be handled securely within the data structure. 
+## 5. Success Criteria 
+The project is considered successful if: 
+A user can successfully cast a vote and see a confirmation. 
+The script correctly identifies and blocks attempts to vote twice with the same ID. 
+The final "Election Results" output matches the total of individual votes cast during the session. 
+## 6. Technologies Used 
+Language: Python 3.x 
+Libraries: os, csv (for data storage), or json. 
+Environment: Terminal / Command Line Interface (CLI). 
+Academic Note: This project is designed for an introductory programming course. The focus is on algorithm design and logical flow rather than complex cybersecurity or web deployment
 
-Below is a professionally formatted PROBLEM_STATEMENT.md file you can use for your repository.
 
-# Problem Statement: Online Voting System
-## 1. Project Overview
-The objective of this project is to develop a Python-based Online Voting System that allows users to cast votes for their preferred candidates in a secure and organized manner. This project demonstrates core programming concepts such as data structures (lists/dictionaries), loops, conditional logic, and file handling.
-
-## 2. Problem Definition
-Traditional manual voting systems are often prone to human error, long processing times, and lack of transparency. This digital solution aims to:
-
-Authenticate voters using a unique ID.
-
-Prevent double-voting (one person, one vote).
-
-Automate the counting process to provide instant results.
-
-## 3. Functional Requirements
-To solve the problem, the Python script must perform the following tasks:
-
-Feature	Description
-Voter Registration	Users must enter a unique Voter ID and Name.
-Candidate List	Display a predefined list of candidates for the user to choose from.
-Voting Logic	Check if the Voter ID has already voted; if not, record the vote.
-Result Compilation	Calculate total votes for each candidate and identify the winner.
-Data Persistence	Save the final results to a .txt or .csv file.
-## 4. Constraints & Logic
-Input Validation: The system must handle invalid inputs (e.g., entering a string when a number is expected) without crashing.
-
-Uniqueness: No two voters can share the same ID.
-
-Privacy: While the count is public, the link between a specific Voter ID and their choice should be handled securely within the data structure.
-
-## 5. Success Criteria
-The project is considered successful if:
-
-A user can successfully cast a vote and see a confirmation.
-
-The script correctly identifies and blocks an attempt to vote twice with the same ID.
-
-The final "Election Results" output matches the sum of individual votes cast during the session.
-
-## 6. Technologies Used
-Language: Python 3.x
-
-Libraries: os, csv (for data storage), or json.
-
-Environment: Terminal / Command Line Interface (CLI).
-
-Academic Note: This project is designed for an introductory programming course. The focus is on algorithm design and logical flow rather than complex cybersecurity or web deployment.
