@@ -41,4 +41,42 @@ while True:
 
 print(“\nSelect: [1] Vote [2] Results [3] Exit”)
 
-choice = input("Select
+choice = input("Enter your choice: ")
+
+if choice == '1':
+
+voter_id = input("Enter your unique Voter ID: ") strip()
+
+if voter_id in voted_ids:
+
+print("Error: You have already voted with this ID.")
+
+continue
+
+print("\nCandidates:")
+
+for i, name in enumerate(candidates, start=1):
+
+print(f"{i}. {name}")
+
+try:
+
+selection = int(input("Регион номер кандидата: "))
+
+if 1 <= selection <= len(candidates):
+
+chosen_candidate = candidates[selection - 1]
+
+vote_counts[chosen_candidate] += 1
+
+voted_ids.add(voter_id)
+
+print(f"Success! You voted for {chosen_candidate}.")
+
+else:
+
+print("Invalid candidate selection.")
+
+except ValueError
+
+
