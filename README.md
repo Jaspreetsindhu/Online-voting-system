@@ -1,11 +1,5 @@
 
 
-
-
-# Key Concepts Applied
-
-The code uses key concepts.
-
 One of them is Sets.
 
 Sets are used for voted_ids.
