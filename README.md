@@ -111,6 +111,13 @@ Instead it uses:
 •	A set to keep track of who has already voted using their voter IDs
 
 
+File
+▶️ How to Run the Project
+
+1. First you need to get Python on your computer if you do not already have it.
+
+2. Next you need to clone the project repository:
+
 
 ![image](https://github.com/user-attachments/assets/964a0cf5-7259-49d9-b815-7a318a821c9d)
 
