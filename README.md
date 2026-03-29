@@ -102,9 +102,7 @@ These blocks manage inputs that're not integers.
 
 Loops are also used.
 
-A while True loop is used.
-
-This loop keeps the voting station active until it is manually closed.
+A while True loop is 
 
 ![image](https://github.com/user-attachments/assets/964a0cf5-7259-49d9-b815-7a318a821c9d)
 
