@@ -2,19 +2,7 @@
 
 
 
-# The Source Code
 
-Online Voting System - Python Project
-Course: Introduction to Problem Solving and Programming
-Name- Jaspreet Sindhu
-Reg no. - 25boe10069
-
-def run_election():
-    # Initial Data
-    candidates = ["Alice", "Bob", "Charlie"]
-    vote_counts = {candidate: 0 for candidate in candidates}
-    voted_ids = set() # To track unique voters
-    
     print("--- Welcome to the Online Voting System ---")
     
     while True:
