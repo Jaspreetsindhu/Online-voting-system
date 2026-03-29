@@ -1,10 +1,4 @@
 
-            
-            winner = max(vote_counts, key=vote_counts.get)
-            if vote_counts[winner] > 0:
-                print(f"\nLeading Candidate: {winner}")
-            else:
-                print("\nNo votes cast yet.")
 
         elif choice == '3':
             print("Exiting system. Final results saved.")
