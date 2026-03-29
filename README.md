@@ -4,13 +4,7 @@
 
 
     
-        if choice == '1':
-            voter_id = input("Enter your unique Voter ID: ").strip()
-            
-            if voter_id in voted_ids:
-                print("Error: This ID has already cast a vote.")
-                continue
-            
+        
             print("\nCandidates:")
             for i, name in enumerate(candidates, 1):
                 print(f"{i}. {name}")
