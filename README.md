@@ -1,6 +1,4 @@
-# Online Voting System (Python)
 
-Introduction to OVS This is a CLI based Online Voting System developed as a part of the Introduction to Problem Solving and Programming course. While the course dives into functional programming, data validation, and dictionary-based state management.
 
 
 
