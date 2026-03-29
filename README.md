@@ -1,12 +1,10 @@
-🗳️ Online Voting System (Python)
+## Online Voting System (Python)
 
-📌 Project Overview
+# Project Overview
 
 This project is an online voting system. It was made using Python for a class on problem solving and programming. This system is like an election where people can vote see the results and make sure each voter only votes once with a special ID.
 
-⸻
-
-❗ Problem Statement
+# Problem Statement
 
 Traditional voting systems take a lot of time can have errors and are not transparent. We need a system that's simple works well and is secure. It should allow:
 
@@ -16,9 +14,7 @@ Traditional voting systems take a lot of time can have errors and are not transp
 
 •	See results in real-time
 
-⸻
-
-💡 Proposed Solution
+# Proposed Solution
 
 The solution is a voting system on the command line made in Python. It:
 
@@ -30,9 +26,7 @@ The solution is a voting system on the command line made in Python. It:
 
 •	Stops people from voting more than once
 
-⸻
-
-✨ Features
+# Features
 
 •	🧑‍🤝‍🧑 Support for many candidates
 
@@ -46,9 +40,7 @@ The solution is a voting system on the command line made in Python. It:
 
 •	🖥️ A interactive menu
 
-⸻
-
-🛠️ Technology Used
+# Technology Used
 
 •	Programming Language: Python
 
@@ -64,9 +56,7 @@ The solution is a voting system on the command line made in Python. It:
 
 •	Handling exceptions
 
-⸻
-
-⚙️ Working Principle
+# Working Principle
 
 1.	The system starts with a list of candidates and their vote counts.
 
@@ -96,7 +86,7 @@ online-voting-system/
 ├── README.md      # Project documentation
 
 
-📊 Dataset Description
+# Dataset Description
 
 This project does not use any dataset.
 
@@ -111,8 +101,7 @@ Instead it uses:
 •	A set to keep track of who has already voted using their voter IDs
 
 
-File
-▶️ How to Run the Project
+# How to Run the Project
 
 1. First you need to get Python on your computer if you do not already have it.
 
@@ -129,7 +118,7 @@ File
    python main.py
 
 
-💬 Sample Interaction
+# Sample Interaction
 
 --- Welcome to the Online Voting System ---
 
@@ -156,7 +145,7 @@ Charlie: 0 votes
 
 Leading Candidate: Bob
 
-⚠️ Challenges Faced
+# Challenges Faced
 
 •	We had to stop people from voting more than once. We used data structures to do this.
 
@@ -166,9 +155,7 @@ Leading Candidate: Bob
 
 •	We had to update the system in time without using a database.
 
-⸻
-
-🚀 Future Enhancements
+# Future Enhancements
 
 •	We want to add a graphical user interface using tools like Tkinter or PyQt.
 
@@ -180,9 +167,7 @@ Leading Candidate: Bob
 
 •	Enabling access via a web app is also a plan.
 
-⸻
-
-📚 Learning Outcomes
+# Learning Outcomes
 
 •	We learned how to solve problems with Python.
 
@@ -194,15 +179,11 @@ Leading Candidate: Bob
 
 •	We designed a command-line interface.
 
-⸻
-
-🏁
+# Conclusion
 
 The Online Voting System project shows how programming can solve real-world problems. It gives a model for secure voting and helps learn Python programming.
 
-⸻
-
-👤 Author
+# Author
 
 Jaspreet Sindhu
 
