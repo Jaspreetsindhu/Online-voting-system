@@ -1,9 +1,4 @@
 
-
-        elif choice == '2':
-            print("\n--- Current Election Standings ---")
-            for candidate, votes in vote_counts.items():
-                print(f"{candidate}: {votes} votes")
             
             winner = max(vote_counts, key=vote_counts.get)
             if vote_counts[winner] > 0:
