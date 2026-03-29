@@ -119,7 +119,7 @@ Command Line Interface had to be balanced.
 
 
 
-#. What I learnt
+# What I learnt
 
 
 Through this project I gained an understanding of how to design algorithms and the importance of data structures, in keeping a system running smoothly.
