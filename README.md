@@ -1,13 +1,4 @@
 
-
-One of them is Sets.
-
-Sets are used for voted_ids.
-
-This is done to ensure fast lookup time, O(1). To prevent people from voting twice.
-
-Another concept used is Dictionaries.
-
 Dictionaries are used for vote_counts.
 
 They map candidates to their votes.
