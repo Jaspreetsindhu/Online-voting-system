@@ -3,12 +3,7 @@
 
 
 
-    print("--- Welcome to the Online Voting System ---")
     
-    while True:
-        print("\nOptions: [1] Vote [2] See Results [3] Exit")
-        choice = input("Select an option: ")
-
         if choice == '1':
             voter_id = input("Enter your unique Voter ID: ").strip()
             
