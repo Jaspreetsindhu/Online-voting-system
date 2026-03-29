@@ -1,7 +1,4 @@
 
-                    print("Invalid candidate selection.")
-            except ValueError:
-                print("Invalid input. Please enter a number.")
 
         elif choice == '2':
             print("\n--- Current Election Standings ---")
