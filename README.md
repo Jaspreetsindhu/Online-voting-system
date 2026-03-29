@@ -118,7 +118,8 @@ File
 
 2. Next you need to clone the project repository:
 
-   git clone <repository-link>
+   git clone <(https://github.com/Jaspreetsindhu/Online-voting-system)>
+   
 
    
 
