@@ -119,7 +119,8 @@ File
 2. Next you need to clone the project repository:
 
    git clone <(https://github.com/Jaspreetsindhu/Online-voting-system)>
-   
+
+3.	Navigate to the project folder:
 
    
 
