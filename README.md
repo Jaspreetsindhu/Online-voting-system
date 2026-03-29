@@ -1,15 +1,4 @@
 
-
-
-
-
-    
-        
-            print("\nCandidates:")
-            for i, name in enumerate(candidates, 1):
-                print(f"{i}. {name}")
-            
-            try:
                 selection = int(input("Enter candidate number: "))
                 if 1 <= selection <= len(candidates):
                     chosen_candidate = candidates[selection - 1]
