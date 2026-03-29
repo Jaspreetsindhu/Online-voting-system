@@ -96,6 +96,20 @@ online-voting-system/
 ├── README.md      # Project documentation
 
 
+📊 Dataset Description
+
+This project does not use any dataset.
+
+Instead it uses:
+
+•	A list of candidates that is already known (["Alice" "Bob" "Charlie"])
+
+•	Data structures that are stored in the computers memory:
+
+•	A dictionary to keep track of how votes each person gets
+
+•	A set to keep track of who has already voted using their voter IDs
+
 
 
 ![image](https://github.com/user-attachments/assets/964a0cf5-7259-49d9-b815-7a318a821c9d)
