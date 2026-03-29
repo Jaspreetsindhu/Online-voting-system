@@ -1,11 +1,4 @@
 
-                selection = int(input("Enter candidate number: "))
-                if 1 <= selection <= len(candidates):
-                    chosen_candidate = candidates[selection - 1]
-                    vote_counts[chosen_candidate] += 1
-                    voted_ids.add(voter_id)
-                    print(f"Success! You voted for {chosen_candidate}.")
-                else:
                     print("Invalid candidate selection.")
             except ValueError:
                 print("Invalid input. Please enter a number.")
