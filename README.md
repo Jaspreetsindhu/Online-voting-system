@@ -2,16 +2,6 @@
 
 
 
-# Project Logic
-
-This system works with a flow to maintain the election integrity:
-
-1. Authentication: Matches Voter ID with "Already Voted" list.
-
-2. Choice: Users select from a changing pool of candidates.
-
-3. Finalization: Shows the winner and total tally
-
 # The Source Code
 
 Online Voting System - Python Project
