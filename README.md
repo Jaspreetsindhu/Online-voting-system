@@ -1,9 +1,4 @@
 
-
-        elif choice == '3':
-            print("Exiting system. Final results saved.")
-            break
-        else:
             print("Invalid choice. Try again.")
 
 if __name__ == "__main__":
