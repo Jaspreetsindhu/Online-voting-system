@@ -88,6 +88,16 @@ The solution is a voting system on the command line made in Python. It:
 
 4.	Results update and show when asked.
 
+# Project Structure
+
+online-voting-system/
+│
+├── main.py        # Main Python script
+├── README.md      # Project documentation
+
+
+
+
 ![image](https://github.com/user-attachments/assets/964a0cf5-7259-49d9-b815-7a318a821c9d)
 
 
