@@ -122,11 +122,97 @@ File
 
 3.	Navigate to the project folder:
 
-   cd online-voting-system
+    cd online-voting-system
+
+4.	Run the program:
+
+   python main.py
+
+
+💬 Sample Interaction
+
+--- Welcome to the Online Voting System ---
+
+Options: [1] Vote [2] See Results [3] Exit
+Select an option: 1
+
+Enter your unique Voter ID: 123
+
+Candidates:
+1. Alice
+2. Bob
+3. Charlie
+
+Enter candidate number: 2
+Success! You voted for Bob.
+
+Options: [1] Vote [2] See Results [3] Exit
+Select an option: 2
+
+--- Current Election Standings ---
+Alice: 0 votes
+Bob: 1 votes
+Charlie: 0 votes
+
+Leading Candidate: Bob
+
+⚠️ Challenges Faced
+
+•	We had to stop people from voting more than once. We used data structures to do this.
+
+•	We had to deal with users entering data like words instead of numbers.
+
+•	We wanted to make the command-line interface easy to use.
+
+•	We had to update the system in time without using a database.
+
+⸻
+
+🚀 Future Enhancements
+
+•	We want to add a graphical user interface using tools like Tkinter or PyQt.
+
+•	We plan to store data in a database like SQLite or MySQL.
+
+•	A login system for users would be an addition.
+
+•	We should add encryption to make voting secure.
+
+•	Enabling access via a web app is also a plan.
+
+⸻
+
+📚 Learning Outcomes
+
+•	We learned how to solve problems with Python.
+
+•	We worked with data structures like dictionaries and sets.
+
+•	We built a real-world voting system.
+
+•	We got better at handling user input and exceptions.
+
+•	We designed a command-line interface.
+
+⸻
+
+🏁
+
+The Online Voting System project shows how programming can solve real-world problems. It gives a model for secure voting and helps learn Python programming.
+
+⸻
+
+👤 Author
+
+Jaspreet Sindhu
+
+Reg No: 25BOE10069
+
+Course: Introduction, to Problem Solving and Programming
 
    
 
-
+# Output screenshot
 ![image](https://github.com/user-attachments/assets/964a0cf5-7259-49d9-b815-7a318a821c9d)
 
 
