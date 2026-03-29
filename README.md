@@ -122,6 +122,8 @@ File
 
 3.	Navigate to the project folder:
 
+   cd online-voting-system
+
    
 
 
